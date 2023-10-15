@@ -1,0 +1,102 @@
+[   
+    {
+      "id": 1,
+      "name": "Resina estándar 300 gr.",
+      "description": "Def. estándar",
+      "pictureUrl": "resina-estandar-300.jpg",
+      "price": 300,
+      "stock": 10,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Pigmento 40 cc.",
+      "description": "Pigmento pleno",
+      "pictureUrl": "pleno-marfil-40cc-1.jpg", 
+      "price": 500,
+      "stock": 15,
+      "category": "pigmentos",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "Resina estándar 750 gr.",
+      "description": "Def. estándar",
+      "pictureUrl": "resina-estandar-750.jpg",
+      "price": 1500,
+      "stock": 15,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Resina estándar 1,5 kg.",
+      "description": "Def. estándar",
+      "pictureUrl": "resina-estandar-1500.jpg",
+      "price": 3000,
+      "stock": 15,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Resina Glass Fluent 300 gr.",
+      "description": "Def. Glass Fluent",
+      "pictureUrl": "resina-estandar-300.jpg",
+      "price": 900,
+      "stock": 15,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "name": "Resina Glass Fluent 750 gr.",
+      "description": "Def. Glass Fluent",
+      "pictureUrl": "resina-estandar-750.jpg",
+      "price": 2000,
+      "stock": 15,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Resina Glass Fluent 1,5 kg.",
+      "description": "Def. Glass Fluent",
+      "pictureUrl": "resina-estandar-1500.jpg",
+      "price": 4000,
+      "stock": 15,
+      "category": "resinas",
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "name": "Molde ABC grande",
+      "description": "Molde de silicona",
+      "pictureUrl": "molde-abc-grande.jpg",
+      "price": 1000,
+      "stock": 15,
+      "category": "moldes",
+      "categoryId": 4
+    },
+    {
+      "id": 10,
+      "name": "Quitaburbujas 100 cc.",
+      "description": "Alcohol isopropílico",
+      "pictureUrl": "quitaburbujas-100.jpg",
+      "price": 550,
+      "stock": 15,
+      "category": "accesorios",
+      "categoryId": 5
+    },
+    {
+      "category": "glitters",
+      "categoryId": 3,
+      "description": "Glitter trama fina",
+      "name": "Glitter 10 gr.",
+      "pictureUrl": "glitter-stich.jpg",
+      "price": 100,
+      "stock": 20,
+      "id": 2
+    }
+  ]
