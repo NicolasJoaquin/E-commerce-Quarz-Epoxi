@@ -8,6 +8,8 @@ import Checkout from './Components/Checkout';
 import Test from './Components/Test';
 import CartContext from './Context/CartContext.js'; 
 import Cart from './Components/Cart';
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
             <Route path='/test' element={<Test />} />
           </Routes>
         </BrowserRouter>
+        <ToastContainer />
       </CartContext>
     </div>
   );

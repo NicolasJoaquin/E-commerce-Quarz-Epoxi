@@ -15,7 +15,7 @@ const ItemDetail = ({id, name, description, price, stock, pictureUrl, categoryId
     
   return (
     <div className='col-md-4 offset-md-4 mb-3'>
-        <div className="card" style={{width: "25rem"}}>
+        <div className="card shadow-lg" style={{width: "25rem"}}>
             <img src={"../" + pictureUrl} className="card-img-top" alt={name} />
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>

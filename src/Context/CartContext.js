@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { toast } from 'react-toastify';
 
 export const cartContext = createContext(null);
 
@@ -13,7 +14,7 @@ const CartContext = ({children}) => {
       const actualQuantity = getActualQuantity(product.id);
       const newQuantity = actualQuantity + product.quantity;
       if(newQuantity > product.stock)
-        alert ("El stock no es suficiente, no se puede agregar el producto al carrito");
+        toast.warn('El stock no es suficiente, no se puede agregar el producto al carrito');
       else {
         product.quantity = newQuantity;
         let newCart = [...cart];

@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 import { useState } from 'react'
 
 const ItemCount = ({stock, initial, onClickAddToCart}) => {
@@ -8,7 +9,7 @@ const ItemCount = ({stock, initial, onClickAddToCart}) => {
     if(currentQuantity < stock)
       setCurrentQuantity(currentQuantity + 1);
     else
-      alert('El stock no es suficiente, no se pueden agregar más unidades');
+      toast.warn('El stock no es suficiente, no se pueden agregar más unidades');
   }
   const onRemove = () => {
     if(currentQuantity > 1)
